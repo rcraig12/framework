@@ -10,10 +10,12 @@ class AdminTheme {
       // Load the theme configuration
       $config = require_once APPROOT . '/config/config.php';
       self::$themeName = $config['adminTheme'];
+      
 
       // Store the data in a static property to make it accessible globally
       self::$admindata = $data;
-
+      self::$admindata['version'] = $config['version'];
+      
       // Build the path to the template file
       $templatePath = APPROOT .  "/core/admin/themes/" . self::$themeName . "/$template.php";
 

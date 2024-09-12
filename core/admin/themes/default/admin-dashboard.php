@@ -17,6 +17,6 @@
       <i class="fa-solid fa-poo icon"></i>
     </div>
   </div>
-  <div class="dashboard-footer">Simple Framework Version 1.0.0.a (C) 2024</div>
+  <div class="dashboard-footer">Simple Framework Version <?php echo $version; ?> (C) 2024</div>
 </div>
 <?php fwFoot(); ?>
