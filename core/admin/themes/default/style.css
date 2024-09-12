@@ -67,17 +67,17 @@ body {
   color: #aaaaaa;
 }
 
+.btn {
+    padding: 4px 6px;
+    border: 1px outset #000000;
+    border-radius: 3px;
+    color: #000000;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 600;
+}
 
-
-
-/* <div class="dashboard-outer">
-  <div class="main-nav">Dashboard</div>
-  <div class="dashboard-content">
-    <div class="side-nav">
-      
-    </div>
-    <div class="fw-content">
-
-    </div>
-  </div>
-</div> */
+.btn-primary {
+  background-color: #6380ff;
+  color: #ffffff;
+}

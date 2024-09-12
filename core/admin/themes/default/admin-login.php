@@ -18,5 +18,8 @@
         <!-- Submit Button -->
         <button type="submit">Login</button>
     </form>
+    <div>
+      <a href="/" class="btn btn-primary">Website Home Page</a>
+    </div>
 </div>
 <?php fwFoot(); ?>
