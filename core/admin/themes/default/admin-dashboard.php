@@ -1,4 +1,4 @@
-<?php fwAdminHead(); ?>
+<?php fwHead(); ?>
 <div class="dashboard-outer">
   <div class="main-nav">Dashboard</div>
   <div class="dashboard-content">
@@ -19,4 +19,4 @@
   </div>
   <div class="dashboard-footer">Simple Framework Version 1.0.0.a (C) 2024</div>
 </div>
-<?php fwAdminFoot(); ?>
+<?php fwFoot(); ?>

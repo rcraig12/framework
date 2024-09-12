@@ -1,4 +1,4 @@
-<?php fwAdminHead(); ?>
+<?php fwHead(); ?>
 <div class="content">
   <h1>Login</h1>
   <form method="post" action="/fw-admin/login">
@@ -19,4 +19,4 @@
         <button type="submit">Login</button>
     </form>
 </div>
-<?php fwAdminFoot(); ?>
+<?php fwFoot(); ?>
